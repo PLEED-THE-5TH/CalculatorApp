@@ -1,0 +1,17 @@
+D:\doc\GitHub\Personal Projects\CalculatorApp\bin\Debug\net8.0-windows\CalculatorApp.exe
+D:\doc\GitHub\Personal Projects\CalculatorApp\bin\Debug\net8.0-windows\CalculatorApp.deps.json
+D:\doc\GitHub\Personal Projects\CalculatorApp\bin\Debug\net8.0-windows\CalculatorApp.runtimeconfig.json
+D:\doc\GitHub\Personal Projects\CalculatorApp\bin\Debug\net8.0-windows\CalculatorApp.dll
+D:\doc\GitHub\Personal Projects\CalculatorApp\bin\Debug\net8.0-windows\CalculatorApp.pdb
+D:\doc\GitHub\Personal Projects\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.csproj.GenerateResource.cache
+D:\doc\GitHub\Personal Projects\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\doc\GitHub\Personal Projects\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.AssemblyInfoInputs.cache
+D:\doc\GitHub\Personal Projects\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.AssemblyInfo.cs
+D:\doc\GitHub\Personal Projects\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.csproj.CoreCompileInputs.cache
+D:\doc\GitHub\Personal Projects\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.sourcelink.json
+D:\doc\GitHub\Personal Projects\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.dll
+D:\doc\GitHub\Personal Projects\CalculatorApp\obj\Debug\net8.0-windows\refint\CalculatorApp.dll
+D:\doc\GitHub\Personal Projects\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.pdb
+D:\doc\GitHub\Personal Projects\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.genruntimeconfig.cache
+D:\doc\GitHub\Personal Projects\CalculatorApp\obj\Debug\net8.0-windows\ref\CalculatorApp.dll
+D:\doc\GitHub\Personal Projects\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.CalculatorApp.resources
