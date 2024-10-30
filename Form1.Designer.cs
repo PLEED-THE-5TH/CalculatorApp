@@ -48,6 +48,7 @@
             bClearEverything = new Button();
             bClear = new Button();
             bDivide = new Button();
+            operationText = new TextBox();
             SuspendLayout();
             // 
             // textBox
@@ -64,7 +65,6 @@
             textBox.Size = new Size(288, 54);
             textBox.TabIndex = 1;
             textBox.TextAlign = HorizontalAlignment.Right;
-            textBox.TextChanged += textBox_TextChanged;
             // 
             // bNegate
             // 
@@ -154,7 +154,7 @@
             b1.TabIndex = 12;
             b1.Text = "1";
             b1.UseVisualStyleBackColor = false;
-            b1.Click += b1_Click_1;
+            b1.Click += b1_Click;
             // 
             // b2
             // 
@@ -426,6 +426,21 @@
             bDivide.UseVisualStyleBackColor = false;
             bDivide.Click += bDivide_Click;
             // 
+            // operationText
+            // 
+            operationText.BackColor = Color.FromArgb(30, 30, 30);
+            operationText.BorderStyle = BorderStyle.None;
+            operationText.Font = new Font("Segoe UI", 10F);
+            operationText.ForeColor = SystemColors.Control;
+            operationText.Location = new Point(13, 8);
+            operationText.Margin = new Padding(4, 3, 4, 3);
+            operationText.Name = "operationText";
+            operationText.ReadOnly = true;
+            operationText.RightToLeft = RightToLeft.No;
+            operationText.Size = new Size(288, 18);
+            operationText.TabIndex = 28;
+            operationText.TextAlign = HorizontalAlignment.Right;
+            // 
             // CalculatorApp
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -433,6 +448,7 @@
             AutoSize = true;
             BackColor = Color.FromArgb(30, 30, 30);
             ClientSize = new Size(314, 450);
+            Controls.Add(operationText);
             Controls.Add(bDivide);
             Controls.Add(bClear);
             Controls.Add(bClearEverything);
@@ -454,6 +470,7 @@
             Controls.Add(bEquals);
             Controls.Add(bNegate);
             Controls.Add(textBox);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(4, 3, 4, 3);
             Name = "CalculatorApp";
             Text = "Calculator";
@@ -484,5 +501,6 @@
         private Button bClearEverything;
         private Button bClear;
         private Button bDivide;
+        private TextBox operationText;
     }
 }
