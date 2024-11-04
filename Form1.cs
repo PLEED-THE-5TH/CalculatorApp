@@ -1,3 +1,5 @@
+using static System.Net.Mime.MediaTypeNames;
+
 namespace CalculatorApp
 {
     public partial class CalculatorApp : Form
@@ -15,7 +17,7 @@ namespace CalculatorApp
         }
         private void AttemptAddToTextBox(string text)
         {
-            if (textBox.Text == "0" && textBox.Text != null) {
+            if (textBox.Text == "0") { // && textBox.Text != null
                 textBox.Text = text;
             }
             else {
@@ -66,7 +68,13 @@ namespace CalculatorApp
         }
         private void bBackspace_Click(object sender, EventArgs e)
         {
-
+            string str = textBox.Text;
+            if (textBox.Text != null && (textBox.Text != "0" || str.Length > 0)) {
+                textBox.Text = textBox.Text;
+            }
+            else if (str != null && str.Length > 0 && str.CharAt(str.Length - 1) == 'x') {
+                str = str.Substring(0, str.Length - 1);
+            }
         }
         private void bClearEverything_Click(object sender, EventArgs e)
         {
