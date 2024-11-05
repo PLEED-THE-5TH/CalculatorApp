@@ -4,9 +4,13 @@ namespace CalculatorApp
 {
     public partial class CalculatorApp : Form
     {
+        #region Variables
+        double currentTotal = 0;
         double FirstNumber = 0;
         string Operation = "";
-
+        bool freshOperation = true;
+        #endregion
+        #region VS Functions
         public CalculatorApp()
         {
             InitializeComponent();
@@ -15,8 +19,13 @@ namespace CalculatorApp
         {
 
         }
+        #endregion
+        #region Core Functions
         private void AttemptAddToTextBox(string text)
         {
+            if (freshOperation) {
+                textBox.Text = "0";
+            }
             if (textBox.Text == "0") { // && textBox.Text != null
                 textBox.Text = text;
             }
@@ -65,6 +74,7 @@ namespace CalculatorApp
                     FirstNumber = Result;
                 }
             }
+            freshOperation = true;
         }
         private void bBackspace_Click(object sender, EventArgs e)
         {
@@ -72,18 +82,29 @@ namespace CalculatorApp
             if (textBox.Text != null && (textBox.Text != "0" || str.Length > 0)) {
                 textBox.Text = textBox.Text;
             }
-            else if (str != null && str.Length > 0 && str.CharAt(str.Length - 1) == 'x') {
-                str = str.Substring(0, str.Length - 1);
-            }
+            //else if (str != null && str.Length > 0 && str.CharAt(str.Length - 1) == 'x') {
+            //    str = str.Substring(0, str.Length - 1);
+            //}
         }
         private void bClearEverything_Click(object sender, EventArgs e)
         {
-
+            textBox.Text = "0";
+            operationText.Text = "";
         }
         private void bNegate_Click(object sender, EventArgs e)
         {
 
         }
+        private void bClear_Click(object sender, EventArgs e)
+        {
+            textBox.Text = "0";
+        }
+        private void bPeriod_Click(object sender, EventArgs e)
+        {
+            textBox.Text = textBox.Text + ".";
+        }
+        #endregion
+        #region Operators
         private void bMultiply_Click(object sender, EventArgs e)
         {
             DoOperation("*");
@@ -96,18 +117,12 @@ namespace CalculatorApp
         {
             DoOperation("+");
         }
-        private void bClear_Click(object sender, EventArgs e)
-        {
-            textBox.Text = "0";
-        }
         private void bDivide_Click(object sender, EventArgs e)
         {
             DoOperation("/");
         }
-        private void bPeriod_Click(object sender, EventArgs e)
-        {
-            textBox.Text = textBox.Text + ".";
-        }
+        #endregion
+        #region Numbers
         private void b1_Click(object sender, EventArgs e)
         {
             AttemptAddToTextBox("1");
@@ -148,5 +163,6 @@ namespace CalculatorApp
         {
             AttemptAddToTextBox("0");
         }
+        #endregion
     }
 }

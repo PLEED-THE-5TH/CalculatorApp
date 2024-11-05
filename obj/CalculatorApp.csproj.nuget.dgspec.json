@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\doc\\GitHub\\Personal Projects\\CalculatorApp\\CalculatorApp.csproj": {}
+    "C:\\Users\\pleed\\Documents\\GitHub\\Personal Projects\\CalculatorApp\\CalculatorApp.csproj": {}
   },
   "projects": {
-    "D:\\doc\\GitHub\\Personal Projects\\CalculatorApp\\CalculatorApp.csproj": {
+    "C:\\Users\\pleed\\Documents\\GitHub\\Personal Projects\\CalculatorApp\\CalculatorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\doc\\GitHub\\Personal Projects\\CalculatorApp\\CalculatorApp.csproj",
+        "projectUniqueName": "C:\\Users\\pleed\\Documents\\GitHub\\Personal Projects\\CalculatorApp\\CalculatorApp.csproj",
         "projectName": "CalculatorApp",
-        "projectPath": "D:\\doc\\GitHub\\Personal Projects\\CalculatorApp\\CalculatorApp.csproj",
-        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "D:\\doc\\GitHub\\Personal Projects\\CalculatorApp\\obj\\",
+        "projectPath": "C:\\Users\\pleed\\Documents\\GitHub\\Personal Projects\\CalculatorApp\\CalculatorApp.csproj",
+        "packagesPath": "C:\\Users\\pleed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pleed\\Documents\\GitHub\\Personal Projects\\CalculatorApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pleed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -67,7 +62,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
